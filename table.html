@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efootball knockout tournament</title>
+    <link rel="stylesheet" href="Gstyle.css">
+    <link rel="icon" type="image/x-icon" href="channels4_profile.jpg">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <br>
+            <h1 style="color: #E9EB56; text-align: center;">Efootball Knockout <br>Tournament </h1>
+            <p style="color: #A1A160; text-align: center;">Aug 2026</p>
+            <p id="date">date of today</p>
+            <P id="demo"></P>
+            <script>
+
+                let date = new Date();
+
+                let day = date.getDate();
+                let month = date.getMonth() + 1;
+                let year = date.getFullYear();
+
+                document.getElementById('demo').innerHTML = day + " /" + month + " /" + year;
+            </script>
+            <br>
+        </div>
+        <div class="link1">
+            <div><a href="general.html" class="link">overview</a></div>
+            <div><a href="matches.html" class="link">matches</a></div>
+            <div><a href="table.html" class="link">table</a></div>
+            <div><a href="status.html" class="link">status</a></div>
+        </div>
+    </header> 
+
+
+      <!-- maelzooooo -->
+    <main>
+        <img src="IMG-20260807-WA0045.jpg.jpeg" alt="photo" height="auto" width="100%">
+        <!-- comment -->
+
+        <div class="comment" style="padding: 5px; background-color: rgb(5, 5, 55);">
+            <form action="mailto:amosndelembi20@mail.com" method="post" style="display: flex; flex-direction: column;">
+                <fieldset style="width: 70%; border: solid 2px rgba(11, 11, 126, 0.808);">
+                    <legend style="color: rgba(167, 219, 12, 0.898);">Comment Section</legend><br>
+                    <input type="text" id="name" name="name" placeholder="Your name" style="width: 70px; margin-left: 5px;"> <br> <br>
+                    <input type="textarea" id="commen" name="commen" placeholder="Write your comment..." style="width: 70%; height: 60px; margin-left: 5px"> <br> <br>
+                    <input type="submit" value="submit" style="background-color: green; width:50%; margin-left: 5px; border: none; border-radius: 7px;"><br><br>
+                </fieldset>
+            </form>
+       </div>
+    </main>
+
+    <!-- mwishooooo -->
+
+    <footer>
+    <!-- copyright -->
+        <br>
+        <p style="text-align: center; "><b>Efootball knockout tournament</b></p>
+        <h3 style="text-align: center; ">2026</h3>
+        
+        <!-- link    -->
+        <div class="linkmuhimu">
+            <a href="" class="muhimu">Home</a>
+            <a href="" class="muhimu">About Us</a>
+            <a href="" class="muhimu">Service</a>
+            <a href="" class="muhimu">contact</a>
+            <a href="" class="muhimu">privacy policy</a>
+            <a href="" class="muhimu">terms & condition</a>
+        </div> <br>
+        <div class="social">
+            <a href="https://wa.me/255686988141" id="whatsapp" target="_blank"><img src="whatsapp-brands-solid-full.svg" alt="whatsap" height="40px" width="40px"></a>
+            <a href="https://WWW.facebook.com/ndelembiamos" id="face" target="_blank"><img src="facebook-brands-solid-full.svg" alt="facebook" height="40px" width="40px"></a>
+            <a href="https://www.instagram.com/AmosNdelembi" id="insta" target="_blank"><img src="instagram-brands-solid-full.svg" alt="instagram" height="40px" width="40px"></a>
+            <a href="https://WWW.youtube.com/@AmosNdelembi" id="you" target="_blank"><img src="youtube-brands-solid-full.svg" alt="youtube" height="40px" width="40px"></a>
+        </div>
+        <p style="text-align: center;">Follow Me on this social medias</p> <br>
+        <p  style="text-align: center;">tel | +255 686 988 141</p>
+        <p  style="text-align: center;">email |amosndelembi20@gmail.com</p>
+        <p  style="text-align: center;">location | Mbeya Tanzania</p>
+        
+        <p id="last">&copy; 2026 Amos Ndelembi. all rights reserved </p> <br>
+    </footer>
+</body>
+</html>
